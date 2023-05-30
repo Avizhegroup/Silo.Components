@@ -4,15 +4,21 @@
 		<TargetFramework>net7.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
+		<Authors>Avizhe Group Software Development Team,Alireza Tavakoli</Authors>
+		<Company>Avizhe Group</Company>
+		<Description>Date picker component for our WMS system using RFID. Check avizhegroup.com</Description>
+		<Product>Silo</Product>
+		<Copyright>Avizhe Group</Copyright>
+		<WebPage>https://avizhegroup.com/</WebPage>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.5" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Folder Include="wwwroot\scripts\" />
-		<Folder Include="wwwroot\styles\" />
+		<PackageReference Include="BuildWebCompiler2022" Version="1.14.9.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -20,7 +26,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Using Include="Silo.Components.Shared"/>
+		<Using Include="Silo.Components.Shared" />
 	</ItemGroup>
 
 </Project>

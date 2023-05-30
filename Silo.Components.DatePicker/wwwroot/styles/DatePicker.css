@@ -1,0 +1,94 @@
+﻿.date-picker-container {
+  display: inline-block;
+  position: relative;
+  min-width: 50px;
+}
+
+.date-picker-input {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.date-picker-input:focus {
+  outline: none;
+  border-color: #0078d4;
+}
+
+.date-picker {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px;
+  z-index: 10;
+}
+
+.date-picker .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.date-picker .header button {
+  background-color: transparent;
+  border: none;
+  color: #0078d4;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.date-picker .header button:hover {
+  background-color: rgba(0, 120, 212, 0.1);
+}
+
+.date-picker table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.date-picker th,
+.date-picker td {
+  text-align: center;
+  padding: 4px;
+}
+
+.date-picker th {
+  font-size: 12px;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.date-picker td {
+  font-size: 14px;
+}
+
+.date-picker .other-month {
+  color: #ccc;
+}
+
+.date-picker .today-day {
+  background-color: #0078d4;
+  border-radius: 70%;
+  color: white;
+}
+
+.date-picker .date {
+  cursor: pointer;
+}
+
+.date:hover {
+  background-color: rgba(0, 120, 212, 0.1);
+  border-radius: 70%;
+}
+
+.date-picker .selected-day {
+  background-color: rgba(0, 120, 212, 0.5);
+  border-radius: 70%;
+}

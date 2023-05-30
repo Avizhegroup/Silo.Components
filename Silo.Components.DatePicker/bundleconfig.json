@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "wwwroot/scripts/DatePicker.min.js",
+    "inputFiles": [
+      "wwwroot/scripts/DatePicker.js"
+    ]
+  }
+]

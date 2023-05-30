@@ -12,7 +12,7 @@
         <div class="date-picker">
             <div class="header">
                 <button type="button" @onclick="PreviousMonth">
-                    <MaterialIcon IconName="@MaterialIconsHelper.Arrow_forward_ios"></MaterialIcon>
+                    &lt;
                 </button>
                 <span>
                     <span class="date" @onclick="OnMonthTitleClick">
@@ -23,7 +23,7 @@
                     </span>
                 </span>
                 <button type="button" @onclick="NextMonth">
-                    <MaterialIcon IconName="@MaterialIconsHelper.Arrow_back_ios"></MaterialIcon>
+                    &gt;
                 </button>
             </div>
             @if (Mode == DatePickerMode.Daily)

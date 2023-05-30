@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C3CBE314-A06
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C8232EFE-9E0F-4819-AE1D-9C7036EFF5DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silo.Components.DatePicker", "Silo.Components.DatePicker\Silo.Components.DatePicker.csproj", "{EFFC3E05-67AD-4814-BC56-BD13CBE5A328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Silo.Components.DatePicker", "Silo.Components.DatePicker\Silo.Components.DatePicker.csproj", "{EFFC3E05-67AD-4814-BC56-BD13CBE5A328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Silo.Components.Shared", "Silo.Components.Shared\Silo.Components.Shared.csproj", "{748F2E3E-C920-4E22-A1EC-563E3BDFFE91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Silo.Components.Shared", "Silo.Components.Shared\Silo.Components.Shared.csproj", "{748F2E3E-C920-4E22-A1EC-563E3BDFFE91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

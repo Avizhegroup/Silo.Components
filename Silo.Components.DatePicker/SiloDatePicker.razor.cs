@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 
 namespace Silo.Components.DatePicker;
-public partial class DatePicker
+public partial class SiloDatePicker
 {
     private int year;
     private int month;
