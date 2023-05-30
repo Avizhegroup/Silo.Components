@@ -9,8 +9,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C8232EFE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Silo.Components.DatePicker", "Silo.Components.DatePicker\Silo.Components.DatePicker.csproj", "{EFFC3E05-67AD-4814-BC56-BD13CBE5A328}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Silo.Components.Shared", "Silo.Components.Shared\Silo.Components.Shared.csproj", "{748F2E3E-C920-4E22-A1EC-563E3BDFFE91}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,17 +19,12 @@ Global
 		{EFFC3E05-67AD-4814-BC56-BD13CBE5A328}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFFC3E05-67AD-4814-BC56-BD13CBE5A328}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFFC3E05-67AD-4814-BC56-BD13CBE5A328}.Release|Any CPU.Build.0 = Release|Any CPU
-		{748F2E3E-C920-4E22-A1EC-563E3BDFFE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{748F2E3E-C920-4E22-A1EC-563E3BDFFE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{748F2E3E-C920-4E22-A1EC-563E3BDFFE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{748F2E3E-C920-4E22-A1EC-563E3BDFFE91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EFFC3E05-67AD-4814-BC56-BD13CBE5A328} = {C3CBE314-A064-466F-A043-CFBD8413D06D}
-		{748F2E3E-C920-4E22-A1EC-563E3BDFFE91} = {C3CBE314-A064-466F-A043-CFBD8413D06D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D531A36-70D1-4527-B284-2EF336B67FED}

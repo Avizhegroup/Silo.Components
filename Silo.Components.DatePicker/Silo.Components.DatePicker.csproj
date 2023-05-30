@@ -1,13 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Razor">
+﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
 	<PropertyGroup>
 		<TargetFramework>net7.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<Authors>Avizhe Group Software Development Team,Alireza Tavakoli</Authors>
+		<LangVersion>latest</LangVersion>
+		<Authors>Avizhe Group</Authors>
 		<Company>Avizhe Group</Company>
 		<Description>Date picker component for our WMS system using RFID. Check avizhegroup.com</Description>
-		<Product>Silo</Product>
+		<Product>Silo Date Picker</Product>
 		<Copyright>Avizhe Group</Copyright>
 		<WebPage>https://avizhegroup.com/</WebPage>
 	</PropertyGroup>
@@ -19,14 +20,6 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<ProjectReference Include="..\Silo.Components.Shared\Silo.Components.Shared.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<Using Include="Silo.Components.Shared" />
 	</ItemGroup>
 
 </Project>

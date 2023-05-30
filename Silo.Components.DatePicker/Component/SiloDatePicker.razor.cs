@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using Silo.Components.DatePicker.Utilities;
+using System.Globalization;
 
 namespace Silo.Components.DatePicker;
 public partial class SiloDatePicker
@@ -184,9 +185,9 @@ public partial class SiloDatePicker
 
     public async Task OnMonthClick(string monthName)
     {
-        for (int i = 0; i < PersianMonthNames.Length ; i++)
+        for (int i = 0; i < PersianMonthNames.Length; i++)
         {
-            if(PersianMonthNames[i].Equals(monthName))
+            if (PersianMonthNames[i].Equals(monthName))
             {
                 month = i + 1;
 

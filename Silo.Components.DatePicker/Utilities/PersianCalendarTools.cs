@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace Silo.Components.Shared;
+namespace Silo.Components.DatePicker.Utilities;
 
 public static class PersianCalendarTools
 {
